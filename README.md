@@ -1,3 +1,5 @@
+![Sarnano Serious Game Showcase 2026](./assets/repo-social-preview.png)
+
 # Sarnano Serious Game Showcase 2026
 
 Directory pubblica dei prototipi realizzati dagli studenti del Liceo di Sarnano durante il workshop **Saper(e)Consumare** dedicato a serious game, economia circolare e decisioni d'impresa sostenibili.
