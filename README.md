@@ -26,6 +26,7 @@ I prototipi saranno aggiunti progressivamente in `students/`, uno per gruppo.
 | Gruppo | Progetto | Stato | Link |
 | --- | --- | --- | --- |
 | ECoLoGisti | Il Prezzo del Successo | Giocabile | [Apri](./students/ecologisti-prezzo-successo/) |
+| Cosm-Etica | Cosm-Etica | Giocabile | [Apri](./students/cosm-etica/) |
 
 ## Struttura della repo
 

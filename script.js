@@ -5,6 +5,13 @@ const projects = [
     description: "Gioco di scelte su moda sostenibile, fast fashion, fondi, popolarita e impatto etico.",
     status: "Giocabile",
     href: "./students/ecologisti-prezzo-successo/"
+  },
+  {
+    group: "Cosm-Etica",
+    title: "Cosm-Etica",
+    description: "Serious game gestionale su cosmetici biologici, cruelty-free, profitto, pianeta e persone.",
+    status: "Giocabile",
+    href: "./students/cosm-etica/"
   }
 ];
 
