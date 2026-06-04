@@ -26,6 +26,13 @@ const projects = [
     description: "Serious game narrativo su etica dell'AI, certificazioni, potere pubblico, persone e impatto sociale.",
     format: "Gioco Narrativo",
     href: "./students/nexus/"
+  },
+  {
+    group: "I Riciclatori",
+    title: "Eco-Risorse Italia",
+    description: "Gioco gestionale sull'impresa del riciclo a San Ginesio, fra budget, ambiente, lavoratori e Agenda 2030.",
+    format: "Gioco Gestionale",
+    href: "./students/eco-risorse-italia/"
   }
 ];
 

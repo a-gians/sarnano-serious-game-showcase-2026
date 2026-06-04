@@ -31,6 +31,7 @@ I prototipi saranno aggiunti progressivamente in `students/`, uno per gruppo.
 | Cosm-Etica | Cosm-Etica | Giocabile | [Apri](./students/cosm-etica/) |
 | MND | Eudaimonia Corp | Giocabile | [Apri](./students/eudaimonia-corp/) |
 | NEXUS | NEXUS | Giocabile | [Apri](./students/nexus/) |
+| I Riciclatori | Eco-Risorse Italia | Giocabile | [Apri](./students/eco-risorse-italia/) |
 
 ## Struttura della repo
 
