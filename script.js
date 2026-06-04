@@ -12,6 +12,13 @@ const projects = [
     description: "Simulazione CEO su cosmetici biologici, cruelty-free, packaging sostenibile, energia pulita e reputazione etica.",
     format: "Gioco Gestionale",
     href: "./students/cosm-etica/"
+  },
+  {
+    group: "MND",
+    title: "Eudaimonia Corp",
+    description: "CEO simulation su una startup di supporto psicologico, fra benessere delle persone, profitti e sostenibilita energetica.",
+    format: "CEO Simulation",
+    href: "./students/eudaimonia-corp/"
   }
 ];
 
