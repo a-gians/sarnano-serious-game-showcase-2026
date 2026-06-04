@@ -15,11 +15,9 @@ Durante il percorso, gli studenti hanno progettato e prototipato giochi interatt
 
 ## Showcase
 
-La landing pubblica del progetto sara disponibile via GitHub Pages.
+La landing pubblica del progetto e pubblicata via GitHub Pages:
 
-Per ora la directory protetta e curata e pubblicata su HERE.now:
-
-[Apri la landing HERE.now](https://arctic-lantern-cvgt.here.now/)
+[Apri lo showcase](https://andreapt1.github.io/sarnano-serious-game-showcase-2026/)
 
 ## Lavori degli studenti
 
