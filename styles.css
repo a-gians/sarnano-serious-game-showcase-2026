@@ -52,9 +52,9 @@ footer {
 }
 
 .nav {
-  display: flex;
+  display: grid;
+  grid-template-columns: auto minmax(0, 1fr) auto;
   align-items: center;
-  justify-content: space-between;
   gap: 18px;
   font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   font-size: 0.78rem;
@@ -66,6 +66,34 @@ footer {
 .brand {
   text-decoration: none;
   color: var(--leaf);
+}
+
+.nav-logos,
+.footer-logos {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
+}
+
+.nav-logos {
+  gap: 16px;
+  opacity: 0.86;
+}
+
+.nav-logos img,
+.footer-logos img {
+  display: block;
+  height: auto;
+  object-fit: contain;
+}
+
+.nav-logos img:first-child {
+  width: clamp(78px, 9vw, 116px);
+}
+
+.nav-logos img:last-child {
+  width: clamp(118px, 14vw, 184px);
 }
 
 .repo-link {
@@ -254,6 +282,26 @@ footer {
   font-size: 0.9rem;
 }
 
+.footer-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.footer-logos {
+  gap: 12px;
+  opacity: 0.72;
+}
+
+.footer-logos img:first-child {
+  width: 72px;
+}
+
+.footer-logos img:last-child {
+  width: 118px;
+}
+
 @media (max-width: 1120px) {
   .cards {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -263,6 +311,25 @@ footer {
 @media (max-width: 820px) {
   .hero {
     min-height: auto;
+  }
+
+  .nav {
+    grid-template-columns: 1fr auto;
+  }
+
+  .nav-logos {
+    grid-column: 1 / -1;
+    justify-content: flex-start;
+    gap: 12px;
+    order: 3;
+  }
+
+  .nav-logos img:first-child {
+    width: 82px;
+  }
+
+  .nav-logos img:last-child {
+    width: 138px;
   }
 
   .hero-grid,
@@ -277,5 +344,25 @@ footer {
 
   .card {
     min-height: 230px;
+  }
+
+  .footer-inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 620px) {
+  h1 {
+    font-size: clamp(2.55rem, 12vw, 3rem);
+    line-height: 0.94;
+  }
+
+  .nav-logos img:first-child {
+    width: 76px;
+  }
+
+  .nav-logos img:last-child {
+    width: 124px;
   }
 }
