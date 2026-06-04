@@ -19,6 +19,13 @@ const projects = [
     description: "CEO simulation su una startup di supporto psicologico, fra benessere delle persone, profitti e sostenibilita energetica.",
     format: "CEO Simulation",
     href: "./students/eudaimonia-corp/"
+  },
+  {
+    group: "NEXUS",
+    title: "NEXUS",
+    description: "Serious game narrativo su etica dell'AI, certificazioni, potere pubblico, persone e impatto sociale.",
+    format: "Gioco Narrativo",
+    href: "./students/nexus/"
   }
 ];
 
