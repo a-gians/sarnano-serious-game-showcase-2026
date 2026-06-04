@@ -2,15 +2,15 @@ const projects = [
   {
     group: "ECoLoGisti",
     title: "Il Prezzo del Successo",
-    description: "Gioco di scelte su moda sostenibile, fast fashion, fondi, popolarita e impatto etico.",
-    status: "Giocabile",
+    description: "ECoLoGisti: serious game sul lancio di un brand di moda sostenibile, fra fondi, popolarita ed etica.",
+    format: "Gioco + Pitch Deck",
     href: "./students/ecologisti-prezzo-successo/"
   },
   {
     group: "Cosm-Etica",
     title: "Cosm-Etica",
-    description: "Serious game gestionale su cosmetici biologici, cruelty-free, profitto, pianeta e persone.",
-    status: "Giocabile",
+    description: "Simulazione CEO su cosmetici biologici, cruelty-free, packaging sostenibile, energia pulita e reputazione etica.",
+    format: "Gioco Gestionale",
     href: "./students/cosm-etica/"
   }
 ];
@@ -19,11 +19,12 @@ const container = document.querySelector("#student-projects");
 
 container.innerHTML = projects.map((project) => {
   const content = `
-    <span class="tag">${project.status}</span>
+    <span class="tag">${project.format}</span>
     <div>
       <h3>${project.title}</h3>
-      <p><strong>${project.group}</strong> · ${project.description}</p>
+      <p>${project.description}</p>
     </div>
+    <span class="arrow" aria-hidden="true">→</span>
   `;
 
   if (project.href) {
