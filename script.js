@@ -3,8 +3,8 @@ const projects = [
     group: "ECoLoGisti",
     title: "Il Prezzo del Successo",
     description: "Gioco di scelte su moda sostenibile, fast fashion, fondi, popolarita e impatto etico.",
-    status: "In lavorazione",
-    href: ""
+    status: "Giocabile",
+    href: "./students/ecologisti-prezzo-successo/"
   }
 ];
 
@@ -25,4 +25,3 @@ container.innerHTML = projects.map((project) => {
 
   return `<article class="card">${content}</article>`;
 }).join("");
-

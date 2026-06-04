@@ -27,7 +27,7 @@ I prototipi saranno aggiunti progressivamente in `students/`, uno per gruppo.
 
 | Gruppo | Progetto | Stato | Link |
 | --- | --- | --- | --- |
-| ECoLoGisti | Il Prezzo del Successo | In lavorazione | Da aggiungere |
+| ECoLoGisti | Il Prezzo del Successo | Giocabile | [Apri](./students/ecologisti-prezzo-successo/) |
 
 ## Struttura della repo
 
@@ -44,4 +44,3 @@ I prototipi saranno aggiunti progressivamente in `students/`, uno per gruppo.
 ## Note
 
 I lavori sono prototipi didattici realizzati in tempi brevi. La repo conserva il percorso e rende navigabili i risultati finali del workshop.
-
