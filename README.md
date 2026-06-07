@@ -19,7 +19,7 @@ Durante il percorso, gli studenti hanno progettato e prototipato giochi interatt
 
 La landing pubblica del progetto e pubblicata via GitHub Pages:
 
-[Apri lo showcase](https://andreapt1.github.io/sarnano-serious-game-showcase-2026/)
+[Apri lo showcase](https://a-gians.github.io/sarnano-serious-game-showcase-2026/)
 
 ## Lavori degli studenti
 
